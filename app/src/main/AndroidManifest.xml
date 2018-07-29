@@ -1,0 +1,50 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tfboss.login">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".WelcomeActivity"
+            android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".RegisterActivity"/>
+        <activity android:name=".RegisterCreateCommandActivity"/>
+        <activity android:name=".RegisterGetPassAndUser"/>
+        <activity android:name=".RegisterAddCommandActivity"/>
+        <activity android:name=".LoginGetCommand"/>
+        <activity android:name=".LoginPassChoose"/>
+        <activity android:name=".FaceRegisterActivity"/>
+        <activity android:name=".FaceLoginActivity"/>
+        <activity android:name=".SoundRegisterActivity"/>
+        <activity android:name=".SoundLoginActivity"/>
+        <activity android:name=".Function"/>
+        <activity android:name=".AddPassFaceActivity"/>
+        <activity android:name=".AddPassSoundActivity"/>
+        <activity android:name=".LoginFromCommandFriend"/>
+        <activity android:name="com.tfboss.login.DrawActivity"
+            android:windowSoftInputMode="adjustResize|stateHidden"
+            android:screenOrientation="portrait"></activity>
+        <service android:name=".GetMsgService"/>
+    </application>
+
+</manifest>

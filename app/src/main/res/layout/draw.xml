@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/drawroot"
+    android:theme="@style/AppBaseTheme">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+        <LinearLayout
+            android:id = "@+id/drawmiddle"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent">
+            <com.tfboss.login.DrawView
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id = "@+id/drawview"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent" >
+            </com.tfboss.login.DrawView>  <!--自定义的DrawView类,用于画图的View-->
+        </LinearLayout>
+        <include layout="@layout/toolbarup"/>   <!--包含(主菜单,保存,前进,后退)四种选项的layout-->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id = "@+id/drawbottom"
+            android:layout_alignParentBottom="true">
+            <include layout="@layout/toolbarbottom"/>   <!--点击这个layout中不同图标,切换下面的FrameLayout中显示的layout-->
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="174dp"
+                android:background="@drawable/beijing">
+                <include layout="@layout/backgroundpic"/>   <!--不同颜色的背景图片的layout-->
+                <include layout="@layout/stickerpic"/>  <!--包含一个ViewPager的layout-->
+                <include layout="@layout/geometrypic"/> <!--不同形状的几何图形的选择layout-->
+                <include layout="@layout/wordpic"
+                    android:layout_height="wrap_content" /> <!--空layout-->
+            </FrameLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

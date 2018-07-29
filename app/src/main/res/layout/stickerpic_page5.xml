@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+     <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal" >
+                  <ImageView
+				  android:id="@+id/stickerthumb73"
+				  android:layout_width="50dp"
+				  android:layout_height="40dp"
+				  android:paddingLeft="5dp"
+				  android:paddingRight="5dp"
+				  android:layout_marginTop="8dp"
+				  android:src="@drawable/stickerthumb73"></ImageView>
+			      
+				  <ImageView
+				  android:id="@+id/stickerthumb74"
+				  android:layout_width="50dp"
+				  android:layout_height="40dp"
+				  android:paddingLeft="5dp"
+				  android:paddingRight="5dp"
+				  android:layout_marginTop="8dp"
+				  android:src="@drawable/stickerthumb74"></ImageView>
+				
+				  <ImageView
+				  android:id="@+id/stickerthumb75"
+				  android:layout_width="50dp"
+				  android:layout_height="40dp"
+				  android:paddingLeft="5dp"
+				  android:paddingRight="5dp"
+				  android:layout_marginTop="8dp"
+				  android:src="@drawable/stickerthumb75"></ImageView>
+				
+				  <ImageView
+				  android:id="@+id/stickerthumb76"
+				  android:layout_width="50dp"
+				  android:layout_height="40dp"
+				  android:paddingLeft="5dp"
+				  android:paddingRight="5dp"
+				  android:layout_marginTop="8dp"
+				  android:src="@drawable/stickerthumb76"></ImageView>
+				
+				  <ImageView
+				  android:id="@+id/stickerthumb77"
+				  android:layout_width="50dp"
+				  android:layout_height="40dp"
+				  android:paddingLeft="5dp"
+				  android:paddingRight="5dp"
+				  android:layout_marginTop="8dp"
+				  android:src="@drawable/stickerthumb77"></ImageView>
+				
+				  <ImageView
+				  android:id="@+id/stickerthumb78"
+				  android:layout_width="50dp"
+				  android:layout_height="40dp"
+				  android:paddingLeft="5dp"
+				  android:paddingRight="5dp"
+				  android:layout_marginTop="8dp"
+				  android:src="@drawable/stickerthumb78"></ImageView>				  
+      </LinearLayout>
+      
+     <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal" >
+                  <ImageView
+				  android:id="@+id/stickerthumb79"
+				  android:layout_width="50dp"
+				  android:layout_height="40dp"
+				  android:paddingLeft="5dp"
+				  android:paddingRight="5dp"
+				  android:layout_marginTop="2dp"
+				  android:src="@drawable/stickerthumb79"></ImageView>
+			      
+				  <ImageView
+				  android:id="@+id/stickerthumb80"
+				  android:layout_width="50dp"
+				  android:layout_height="40dp"
+				  android:paddingLeft="5dp"
+				  android:paddingRight="5dp"
+				  android:layout_marginTop="2dp"
+				  android:src="@drawable/stickerthumb80"></ImageView>
+				
+				  <ImageView
+				  android:id="@+id/stickerthumb81"
+				  android:layout_width="50dp"
+				  android:layout_height="40dp"
+				  android:paddingLeft="5dp"
+				  android:paddingRight="5dp"
+				  android:layout_marginTop="2dp"
+				  android:src="@drawable/stickerthumb81"></ImageView>
+				
+				  <ImageView
+				  android:id="@+id/stickerthumb82"
+				  android:layout_width="50dp"
+				  android:layout_height="40dp"
+				  android:paddingLeft="5dp"
+				  android:paddingRight="5dp"
+				  android:layout_marginTop="2dp"
+				  android:src="@drawable/stickerthumb82"></ImageView>
+				
+				  <ImageView
+				  android:id="@+id/stickerthumb83"
+				  android:layout_width="50dp"
+				  android:layout_height="40dp"
+				  android:paddingLeft="5dp"
+				  android:paddingRight="5dp"
+				  android:layout_marginTop="2dp"
+				  android:src="@drawable/stickerthumb83"></ImageView>
+				
+				  <ImageView
+				  android:id="@+id/stickerthumb84"
+				  android:layout_width="50dp"
+				  android:layout_height="40dp"
+				  android:paddingLeft="5dp"
+				  android:paddingRight="5dp"
+				  android:layout_marginTop="2dp"
+				  android:src="@drawable/stickerthumb84"></ImageView>				  
+      </LinearLayout>
+      
+     <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal" >
+                  <ImageView
+				  android:id="@+id/stickerthumb85"
+				  android:layout_width="50dp"
+				  android:layout_height="40dp"
+				  android:paddingLeft="5dp"
+				  android:paddingRight="5dp"
+				  android:layout_marginTop="2dp"
+				  android:src="@drawable/stickerthumb85"></ImageView>
+			      
+				  <ImageView
+				  android:id="@+id/stickerthumb86"
+				  android:layout_width="50dp"
+				  android:layout_height="40dp"
+				  android:paddingLeft="5dp"
+				  android:paddingRight="5dp"
+				  android:layout_marginTop="2dp"
+				  android:src="@drawable/stickerthumb86"></ImageView>
+				
+				  <ImageView
+				  android:id="@+id/stickerthumb87"
+				  android:layout_width="50dp"
+				  android:layout_height="40dp"
+				  android:paddingLeft="5dp"
+				  android:paddingRight="5dp"
+				  android:layout_marginTop="2dp"
+				  android:src="@drawable/stickerthumb87"></ImageView>
+				
+				  <ImageView
+				  android:id="@+id/stickerthumb88"
+				  android:layout_width="50dp"
+				  android:layout_height="40dp"
+				  android:paddingLeft="5dp"
+				  android:paddingRight="5dp"
+				  android:layout_marginTop="2dp"
+				  android:src="@drawable/stickerthumb88"></ImageView>
+				
+				  <ImageView
+				  android:id="@+id/stickerthumb89"
+				  android:layout_width="50dp"
+				  android:layout_height="40dp"
+				  android:paddingLeft="5dp"
+				  android:paddingRight="5dp"
+				  android:layout_marginTop="2dp"
+				  android:src="@drawable/stickerthumb89"></ImageView>
+				
+				  <ImageView
+				  android:id="@+id/stickerthumb90"
+				  android:layout_width="50dp"
+				  android:layout_height="40dp"
+				  android:paddingLeft="5dp"
+				  android:paddingRight="5dp"
+				  android:layout_marginTop="2dp"
+				  android:src="@drawable/stickerthumb90"></ImageView>				  
+      </LinearLayout>
+</LinearLayout> 

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+         android:id="@+id/scrolldots"
+         android:layout_width="fill_parent"
+         android:layout_height="18dp"
+         android:gravity="center_horizontal"
+         android:orientation="horizontal">
+                  <ImageView
+                  android:id="@+id/stickerdot1"
+				  android:layout_width="8dp"
+				  android:layout_height="12dp"
+				  android:layout_marginLeft="5dp"
+				  android:layout_marginTop="5dp"
+				  ></ImageView>
+			      
+				  <ImageView
+                  android:id="@+id/stickerdot2"
+				  android:layout_width="8dp"
+				  android:layout_height="12dp"
+				  android:layout_marginLeft="5dp"
+				  android:layout_marginTop="5dp"
+				  ></ImageView>
+				
+				  <ImageView
+                  android:id="@+id/stickerdot3"
+				  android:layout_width="8dp"
+				  android:layout_height="12dp"
+				  android:layout_marginLeft="5dp"
+				  android:layout_marginTop="5dp"
+				  ></ImageView>
+				
+				  <ImageView
+                  android:id="@+id/stickerdot4"
+				  android:layout_width="8dp"
+				  android:layout_height="12dp"
+				  android:layout_marginLeft="5dp"
+				  android:layout_marginTop="5dp"
+				  ></ImageView>
+				
+				  <ImageView
+                  android:id="@+id/stickerdot5"
+				  android:layout_width="8dp"
+				  android:layout_height="12dp"
+				  android:layout_marginLeft="5dp"
+				  android:layout_marginTop="5dp"
+				  ></ImageView>
+				
+				  <ImageView
+                  android:id="@+id/stickerdot6"
+				  android:layout_width="8dp"
+				  android:layout_height="12dp"
+				  android:layout_marginLeft="5dp"
+				  android:layout_marginTop="5dp"
+				  ></ImageView>
+				  
+				  <ImageView
+                  android:id="@+id/stickerdot7"
+				  android:layout_width="8dp"
+				  android:layout_height="12dp"
+				  android:layout_marginLeft="5dp"
+				  android:layout_marginTop="5dp"
+				  ></ImageView>
+				  
+				  <ImageView
+                  android:id="@+id/stickerdot8"
+				  android:layout_width="8dp"
+				  android:layout_height="12dp"
+				  android:layout_marginLeft="5dp"
+				  android:layout_marginTop="5dp"
+				  ></ImageView>
+				  
+				  <ImageView
+                  android:id="@+id/stickerdot9"
+				  android:layout_width="8dp"
+				  android:layout_height="12dp"
+				  android:layout_marginLeft="5dp"
+				  android:layout_marginTop="5dp"
+				  ></ImageView>
+				  
+    </LinearLayout>

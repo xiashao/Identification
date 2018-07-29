@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/beijing">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="添加用户"
+        android:textColor="#0b50ff"
+        android:textSize="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:id="@+id/guess"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/line"
+        android:layout_below="@+id/guess"
+        android:id="@+id/line1"
+        android:layout_marginTop="5dp"
+        />
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:background="@drawable/logo"
+        android:layout_alignTop="@+id/guess"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/logo"/>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/layout"
+        android:background="#50cbcbcb"
+        android:layout_below="@+id/logo"
+        android:layout_centerHorizontal="true">
+        <EditText
+            android:id="@+id/iat_text3"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:gravity="top|left"
+            android:paddingBottom="20dp"
+            android:hint="请输入口令"
+            android:textSize="20sp"
+            android:singleLine="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            />
+        <ImageButton
+            android:id="@+id/iat_recognize3"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/voice"
+            android:layout_gravity="right"
+            android:layout_below="@+id/iat_text3"
+            android:layout_alignRight="@+id/iat_text3"
+            android:layout_alignEnd="@+id/iat_text3" />
+        <com.gc.materialdesign.views.ButtonRectangle
+            android:id="@+id/iat_cancel3"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:text="提交"
+            android:textSize="6dp"
+            android:layout_below="@+id/iat_recognize3"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="40dp"
+            android:layout_marginTop="40dp"  app:rippleSpeed="100"
+            android:layout_centerHorizontal="true"/>
+        />
+        <com.gc.materialdesign.views.ButtonRectangle
+            android:id="@+id/iat_cancelspankeding"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:textSize="6dp"
+            android:text="取消"
+            android:layout_below="@+id/iat_cancel3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"  app:rippleSpeed="100"/>
+
+    </RelativeLayout>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/line"
+        android:id="@+id/line2"
+        android:layout_below="@+id/layout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="40dp"/>
+
+    <com.gc.materialdesign.views.ButtonFlat
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="跳转到登陆界面"
+        android:id="@+id/buttonGo"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

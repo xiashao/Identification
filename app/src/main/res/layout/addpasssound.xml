@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@drawable/beijing">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="添加声纹密码"
+        android:gravity="center" android:textColor="#0b50ff"
+        android:textSize="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/guess"
+        android:layout_marginTop="5dp"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/line"
+        android:layout_below="@+id/guess"
+        android:id="@+id/line1"
+        android:layout_marginTop="5dp"
+        />
+
+    <TextView
+        android:id="@+id/edt_result"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginTop="5dp"
+        android:gravity="top|left"
+        android:maxLines="3"
+        android:minLines="3"
+        android:layout_margin="20dp"
+        android:text="请读出：芝麻开门"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal" >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="用户名："
+            android:textSize="25dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="18dp"/>
+        <EditText
+            android:id="@+id/spankText10"
+            style="@style/textStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="18dp"
+            android:textColor="#3A5FCD"/>
+
+        <TextView
+            android:id="@+id/txt_authorid10"
+            style="@style/textStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="18dp">
+        </TextView>
+    </LinearLayout>
+
+    <com.gc.materialdesign.views.ButtonRectangle
+        android:id="@+id/isv_register10"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:text="注册"
+        app:rippleSpeed="100"
+        />
+    <com.gc.materialdesign.views.ButtonRectangle
+        android:id="@+id/isv_stop_record10"
+        android:layout_width="250dp"
+        app:rippleSpeed="100"
+        android:layout_height="60dp"
+        android:text="停止" />
+    <com.gc.materialdesign.views.ButtonRectangle
+        android:id="@+id/isv_cancel10"
+        android:layout_width="250dp"
+        app:rippleSpeed="100"
+        android:layout_height="60dp"
+        android:layout_marginTop="5dp"
+        android:text="退出" />
+
+    <TextView
+        android:id="@+id/showPwd10"
+        style="@style/textStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp" />
+
+    <TextView
+        android:id="@+id/showMsg10"
+        style="@style/textStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp" />
+
+    <TextView
+        android:id="@+id/showRegFbk10"
+        style="@style/textStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp" />
+
+    <TextView
+        android:id="@+id/recordTime10"
+        style="@style/textStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp" />
+
+</LinearLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/tools"
+    android:background="@drawable/beijing">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="设置"
+        android:gravity="center" android:textColor="#0b50ff"
+        android:textSize="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/guess"
+        android:layout_marginTop="5dp"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/line"
+        android:layout_below="@+id/guess"
+        android:id="@+id/line1"
+        android:layout_marginTop="5dp"
+        />
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:background="@drawable/logo"
+        android:layout_marginTop="29dp"
+        android:id="@+id/imageView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#50cbcbcb"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/relativeLayout2">
+        <com.gc.materialdesign.views.ButtonRectangle
+            android:layout_marginLeft="70dp"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="删除密码方式"
+            android:id="@+id/buttonspankingss1"
+            app:rippleSpeed="100"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="41dp" />
+        <com.gc.materialdesign.views.ButtonRectangle
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="修改密码方式"
+            android:id="@+id/buttonspankingss2"
+            app:rippleSpeed="100"
+            android:layout_below="@+id/buttonspankingss3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp" />
+        <com.gc.materialdesign.views.ButtonRectangle
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="添加密码方式"
+            android:id="@+id/buttonspankingss3"
+            app:rippleSpeed="100"
+            android:layout_below="@+id/buttonspankingss1"
+            android:layout_alignLeft="@+id/buttonspankingss2"
+            android:layout_alignStart="@+id/buttonspankingss2"
+            android:layout_marginTop="25dp" />
+        <com.gc.materialdesign.views.ButtonRectangle
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="退出当前用户"
+            android:id="@+id/buttonspankingss4"
+            app:rippleSpeed="100"
+            android:layout_marginTop="26dp"
+            android:layout_below="@+id/buttonspankingss2"
+            android:layout_alignLeft="@+id/buttonspankingss2"
+            android:layout_alignStart="@+id/buttonspankingss2" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

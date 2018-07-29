@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/beijing">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="注册方式"
+        android:gravity="center" android:textColor="#0b50ff"
+        android:textSize="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/guess"
+        android:layout_marginTop="5dp"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/line"
+        android:layout_below="@+id/guess"
+        android:id="@+id/line1"
+        android:layout_marginTop="5dp"
+        />
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:background="@drawable/logo"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="39dp"
+        android:id="@+id/imageView" />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#50cbcbcb"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true">
+        <EditText
+            android:textSize="20sp"
+            android:textCursorDrawable="@null"
+            android:singleLine="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="请输入用户名"
+            android:id="@+id/RegisterGetUser"
+            android:layout_centerHorizontal="true" />
+        <com.gc.materialdesign.views.ButtonRectangle
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="设置方式"
+            android:layout_marginTop="33dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:id="@+id/RegisterToGetPass"
+            app:rippleSpeed="100"
+            android:layout_below="@+id/buttondirect"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+        </com.gc.materialdesign.views.ButtonRectangle>
+        <com.gc.materialdesign.views.ButtonRectangle
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:id="@+id/getbackregister"
+            android:text="退出注册"
+            app:rippleSpeed="100"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_below="@+id/RegisterToGetPass"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="33dp">
+        </com.gc.materialdesign.views.ButtonRectangle>
+
+        <com.gc.materialdesign.views.ButtonRectangle
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="提交注册"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:id="@+id/buttondirect"
+            android:layout_below="@+id/RegisterGetUser"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="26dp" />
+    </RelativeLayout>
+</RelativeLayout>
